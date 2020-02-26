@@ -11,7 +11,7 @@ module.exports = {
     title: `prac_gatsuby_tailwind`,
     siteUrl: `https://github.com/ohteru/prac_gatsuby_tailwind`,
     description: `Use ts, react.fc and tailwindCSS in practice`,
-    siteName: `prac_gatsuby_tailwind_test`,
+    siteName: `prac_gatsuby_tailwind_initial_setting`,
   },
 
   // プラグイン名のstringか, {resolve: プラグイン名, options: オプションのオブジェクト}
