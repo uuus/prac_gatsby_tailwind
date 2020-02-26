@@ -3,12 +3,23 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "repository": "https://github.com/ohteru/prac_gatsuby_tailwind",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ohteru/prac_gatsuby_tailwind"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
   "scripts": {
+    "build": "gatsby build",
     "develop": "gatsby develop -p 9090 --host 0.0.0.0",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "help": "gatsby help"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "help": "gatsby help",
+    "create": "gatsby new hello-world https://github.com/gatsbyjs/gatsby-starter-hello-world"
   },
   "keywords": [],
   "author": "",
