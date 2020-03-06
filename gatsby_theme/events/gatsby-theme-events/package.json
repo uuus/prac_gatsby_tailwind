@@ -1,0 +1,23 @@
+{
+  "name": "gatsby-theme-events",
+  "version": "1.0.0",
+  "main": "gatsby-config.js",
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.19.29",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "dependencies": {
+    "gatsby-plugin-page-creator": "^2.1.40"
+  },
+  "devDependencies": {
+    "gatsby": "^2.19.29",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  }
+}

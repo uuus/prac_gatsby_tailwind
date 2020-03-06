@@ -49,6 +49,7 @@ module.exports = {
             "src/**/!(*.d).{js,jsx,ts,tsx,md,mdx}"
           ),
         ],
+        defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [], // default指定しておいた方が良いみたい
         printRejected: true, // 被害者リストをprintする
         develop: false, // gatsby develop の実行時にもPurgeCSSを発動させるか
         tailwind: true, // Tailwindと使う時にonする
