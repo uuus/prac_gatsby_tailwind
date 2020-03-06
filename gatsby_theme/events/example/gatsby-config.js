@@ -1,5 +1,3 @@
 module.exports = {
-  plugins: [
-    "gatsby-theme-events",
-  ],
-}
+  plugins: ['gatsby-theme-events']
+};

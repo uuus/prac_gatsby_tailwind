@@ -5,10 +5,8 @@ import '../styles/style.css';
 const Layout = (props: any) => (
   <>
     <Header />
-    { props.children }
+    {props.children}
   </>
 );
 
-export {
-  Layout,
-};
+export { Layout };

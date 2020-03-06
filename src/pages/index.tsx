@@ -1,5 +1,5 @@
-import { graphql } from "gatsby"
-import * as React from "react"
+import { graphql } from 'gatsby';
+import * as React from 'react';
 import { Layout } from '../layouts';
 
 // Please note that you can use https://github.com/dotansimha/graphql-code-generator
@@ -8,10 +8,10 @@ interface IndexPageProps {
   data: {
     site: {
       siteMetadata: {
-        siteName: string
-      }
-    }
-  }
+        siteName: string;
+      };
+    };
+  };
 }
 
 export const pageQuery = graphql`
@@ -26,15 +26,15 @@ export const pageQuery = graphql`
 
 const Index = (props: IndexPageProps) => {
   const hello = `Hello`;
-  const { siteName } = props.data.site.siteMetadata
+  const { siteName } = props.data.site.siteMetadata;
   return (
     <Layout>
-      <h1>{ hello } TypeScript world!</h1>
+      <h1>{hello} TypeScript world!</h1>
       <p>
         This site is named <strong>{siteName}</strong>
       </p>
     </Layout>
-  )
-}
+  );
+};
 
 export default Index;
